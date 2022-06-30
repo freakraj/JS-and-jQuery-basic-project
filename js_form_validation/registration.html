@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Registaration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" lang="javascript" src="registration.js"></script>
+</head>
+
+<body>
+    <h1>Registaration Form</h1>
+    <div class="container">
+        <form id="myform">
+            <div class="subcontain" style="text-align: center;">
+                <div class="row">
+                    <div class="col-90">
+                        <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-90">
+                        <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-90">
+                        <input type="email" id="email" name="email" placeholder="Enter your Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-90">
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your Mobile">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-90">
+                        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 10px;">
+                    <input type="submit" value="Submit" onclick="validateControls()" style="margin-left: 57vh;">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
