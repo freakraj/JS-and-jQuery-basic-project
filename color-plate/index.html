@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        background change color
+    </title>
+    <style>
+        .square1 {
+            width: 100px;
+            height: 50px;
+            padding-top: 50px;
+            background-color: rgb(197, 3, 3);
+            margin-left: 10%;
+        }
+
+        .square2 {
+            width: 100px;
+            height: 50px;
+            padding-top: 50px;
+            background-color: green;
+            margin-left: 10%;
+        }
+
+        .square3 {
+            width: 100px;
+            height: 50px;
+            padding-top: 50px;
+            background-color: blue;
+            margin-left: 10%;
+        }
+
+        .square4 {
+            width: 100px;
+            height: 50px;
+            padding-top: 50px;
+            background-color: aqua;
+            margin-left: 10%;
+        }
+
+        .square5 {
+            width: 100px;
+            height: 50px;
+            padding-top: 50px;
+            background-color: chocolate;
+            margin-left: 10%;
+        }
+
+        .square6 {
+            width: 100px;
+            height: 50px;
+            padding-top: 50px;
+            background-color: chartreuse;
+            margin-left: 10%;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body style="text-align:center;">
+
+    <h1>Hello Raj</h1>
+    <!-- <button onclick="gfg_Run()">Click here</button> -->
+
+    <!-- <div class="square"></div><br> -->
+    <table style="width: 50px;" class="center">
+        <tr>
+            <td>
+                <div class="square1" id="div1" onclick="gfg_Run1()">gautam</div>
+            </td>
+            <td>
+                <div class="square2" id="div2" onclick="gfg_Run2()">raj</div>
+            </td>
+            <td>
+                <div class="square3" id="div3" onclick="gfg_Run3()">sharma</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="square4" id="div4" onclick="gfg_Run4()">rahul</div>
+            </td>
+            <td>
+                <div class="square5" id="div5" onclick="gfg_Run5()">manoj</div>
+            </td>
+            <td>
+                <div class="square6" id="div6" onclick="gfg_Run6()">rohit</div>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+
+        function gfg_Run1() {
+            changeColor('yellow');
+        }
+
+        function gfg_Run2() {
+            changeColor('pink');
+        }
+        function gfg_Run3() {
+            changeColor('red');
+        }
+        function gfg_Run4() {
+            changeColor('brown');
+        }
+        function gfg_Run5() {
+            changeColor('green');
+        }
+        function gfg_Run6() {
+            changeColor('black');
+        }
+
+
+    </script>
+</body>
+
+</html>
