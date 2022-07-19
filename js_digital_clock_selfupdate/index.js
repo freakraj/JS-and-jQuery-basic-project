@@ -7,12 +7,12 @@ formatSwitchBtn.addEventListener("click", () => {
 
     var formatValue = formatSwitchBtn.getAttribute("data-format");
 
-    console.log(formatValue);
+    // console.log(formatValue);
 
-    if (formatValue == "12") {
-        formatSwitchBtn.setAttribute("data-format", "24");
-    } else {
+    if (formatValue === "24") {
         formatSwitchBtn.setAttribute("data-format", "12");
+    } else {
+        formatSwitchBtn.setAttribute("data-format", "24");
     }
 });
 
@@ -33,7 +33,7 @@ function clock() {
     // set the 12 hour clock format
     var formatValue = formatSwitchBtn.getAttribute("data-format");
     // console.log(formatValue);
-    if(formatValue = "12"){
+    if(formatValue === "12"){
         hours = hours > 12 ? hours % 12 : hours;
     };
 
